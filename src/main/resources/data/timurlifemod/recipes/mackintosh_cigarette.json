@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " *&",
+    "sp@",
+    " ~ "
+  ],
+  "key": {
+    "*": {
+      "item": "minecraft:gunpowder"
+    },
+    "p": {
+      "item": "minecraft:paper"
+    },
+    "~": {
+      "item": "minecraft:string"
+    },
+    "s": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "@": {
+      "item": "minecraft:lily_of_the_valley"
+    },
+    "&": {
+      "item": "minecraft:bamboo"
+    }
+  },
+  "result": {
+    "item": "timurlifemod:mackintosh_cigarette"
+  }
+}

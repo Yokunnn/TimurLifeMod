@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " * ",
+    "sp@",
+    " ~ "
+  ],
+  "key": {
+    "*": {
+      "item": "minecraft:gunpowder"
+    },
+    "p": {
+      "item": "minecraft:paper"
+    },
+    "~": {
+      "item": "minecraft:string"
+    },
+    "s": {
+      "item": "minecraft:sugar"
+    },
+    "@": {
+      "item": "minecraft:red_mushroom"
+    }
+  },
+  "result": {
+    "item": "timurlifemod:ld100_cigarette"
+  }
+}

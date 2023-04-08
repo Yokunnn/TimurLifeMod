@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " * ",
+    "sp@",
+    " ~ "
+  ],
+  "key": {
+    "*": {
+      "item": "minecraft:gunpowder"
+    },
+    "p": {
+      "item": "minecraft:paper"
+    },
+    "~": {
+      "item": "minecraft:string"
+    },
+    "s": {
+      "item": "minecraft:sweet_berries"
+    },
+    "@": {
+      "item": "minecraft:dandelion"
+    }
+  },
+  "result": {
+    "item": "timurlifemod:sobranie_cigarette"
+  }
+}
