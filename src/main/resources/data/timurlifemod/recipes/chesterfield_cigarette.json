@@ -1,25 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " * ",
+    "***",
     "sp@",
-    " ~ "
+    "   "
   ],
   "key": {
     "*": {
-      "item": "minecraft:gunpowder"
+      "item": "timurlifemod:shredded_tobacco"
     },
     "p": {
       "item": "minecraft:paper"
     },
-    "~": {
-      "item": "minecraft:string"
-    },
     "s": {
-      "item": "minecraft:lapis_lazuli"
+      "item": "minecraft:sugar"
     },
     "@": {
-      "item": "minecraft:oxeye_daisy"
+      "item": "minecraft:light_blue_dye"
     }
   },
   "result": {

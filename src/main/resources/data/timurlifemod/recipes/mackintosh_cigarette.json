@@ -1,28 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " *&",
+    "***",
     "sp@",
-    " ~ "
+    " * "
   ],
   "key": {
     "*": {
-      "item": "minecraft:gunpowder"
+      "item": "timurlifemod:shredded_tobacco"
     },
     "p": {
       "item": "minecraft:paper"
-    },
-    "~": {
-      "item": "minecraft:string"
     },
     "s": {
       "item": "minecraft:cocoa_beans"
     },
     "@": {
-      "item": "minecraft:lily_of_the_valley"
-    },
-    "&": {
-      "item": "minecraft:bamboo"
+      "item": "minecraft:white_dye"
     }
   },
   "result": {

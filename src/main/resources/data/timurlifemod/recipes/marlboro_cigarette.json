@@ -1,25 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " * ",
+    "***",
     "sp@",
-    " ~ "
+    "   "
   ],
   "key": {
     "*": {
-      "item": "minecraft:gunpowder"
+      "item": "timurlifemod:shredded_tobacco"
     },
     "p": {
       "item": "minecraft:paper"
     },
-    "~": {
-      "item": "minecraft:string"
-    },
     "s": {
-      "item": "minecraft:nether_wart"
+      "item": "minecraft:dried_kelp"
     },
     "@": {
-      "item": "minecraft:rose_bush"
+      "item": "minecraft:red_dye"
     }
   },
   "result": {

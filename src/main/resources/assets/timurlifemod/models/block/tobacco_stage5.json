@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "timurlifemod:block/tobacco_stage5"
+  },
+  "render_type": "cutout"
+}

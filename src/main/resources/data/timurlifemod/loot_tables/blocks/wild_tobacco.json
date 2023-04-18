@@ -1,0 +1,85 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 2.0,
+                    "min": 1.0
+                  },
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:uniform_bonus_count",
+                  "function": "minecraft:apply_bonus",
+                  "parameters": {
+                    "bonusMultiplier": 1
+                  }
+                },
+                {
+                  "function": "minecraft:limit_count",
+                  "limit": {
+                    "max": 4.0
+                  }
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "name": "timurlifemod:tobacco"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "chance": 0.80,
+                  "condition": "minecraft:random_chance"
+                }
+              ],
+              "name": "timurlifemod:tobacco_seeds"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "chance": 0.80,
+          "condition": "minecraft:random_chance"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:binomial_with_bonus_count",
+              "function": "minecraft:apply_bonus",
+              "parameters": {
+                "extra": 1,
+                "probability": 0.45
+              }
+            }
+          ],
+          "name": "timurlifemod:tobacco_seeds"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

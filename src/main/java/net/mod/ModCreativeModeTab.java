@@ -1,7 +1,8 @@
-package net.mod.item;
+package net.mod;
 
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
+import net.mod.item.ModItems;
 
 public class ModCreativeModeTab {
     public static final CreativeModeTab TIMURLIFE_TAB = new CreativeModeTab("timurlifetab") {

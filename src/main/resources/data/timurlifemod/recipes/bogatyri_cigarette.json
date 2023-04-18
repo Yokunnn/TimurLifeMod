@@ -1,31 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "?*&",
-    "sp@",
-    " ~ "
+    "***",
+    "sP@",
+    " * "
   ],
   "key": {
     "*": {
-      "item": "minecraft:gunpowder"
+      "item": "timurlifemod:shredded_tobacco"
     },
-    "p": {
-      "item": "minecraft:paper"
-    },
-    "~": {
-      "item": "minecraft:string"
+    "P": {
+      "item": "timurlifemod:dry_tobacco"
     },
     "s": {
-      "item": "minecraft:ghast_tear"
+      "item": "timurlifemod:dry_apple"
     },
     "@": {
-      "item": "minecraft:popped_chorus_fruit"
-    },
-    "?": {
-      "item": "minecraft:rabbit_foot"
-    },
-    "&": {
-      "item": "minecraft:blaze_powder"
+      "item": "minecraft:light_gray_dye"
     }
   },
   "result": {

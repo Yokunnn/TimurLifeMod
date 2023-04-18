@@ -5,6 +5,14 @@
   "item.timurlifemod.mackintosh_cigarette": "Макинтош",
   "item.timurlifemod.marlboro_cigarette": "Мальборо",
   "item.timurlifemod.sobranie_cigarette": "Собрание",
+  "item.timurlifemod.tobacco_seeds": "Семена табака",
+  "item.timurlifemod.tobacco": "Табак",
+  "item.timurlifemod.dry_tobacco": "Сушеный табак",
+  "item.timurlifemod.shredded_tobacco": "Измельченный табак",
+  "item.timurlifemod.dry_apple": "Сушеное яблоко",
+
+  "block.timurlifemod.tobacco_crop": "Табачное растение",
+  "block.timurlifemod.wild_tobacco": "Дикий табак",
 
   "itemGroup.timurlifetab": "Тимур лайф"
 }
